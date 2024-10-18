@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="Vi">
 
 <head>
     <meta charset="UTF-8">
@@ -46,10 +46,10 @@
         </div>
         <div class="header-configure-area">
             <div class="language-option">
-               <img src="C:\Users\acer\OneDrive\Documents\project\sona-master\img\user.png" alt="">
-                <span>Khách <i class="fa fa-angle-down"></i></span>
+               <img src="C:\Users\acer\OneDrive\Documents\project\sona-master\img\about\flat.jpeg" alt="">
+                <span>VI <i class="fa fa-angle-down"></i></span>
                 <div class="flag-dropdown">
-                    <ul>                       
+                    <ul>
                         <li><a href="#">EN</a></li>
                     </ul>
                 </div>
@@ -115,11 +115,39 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                            <!-- Nút User -->
+                  <div class="user-area">
+                    <a href="#" id="user-icon"><i class="fa fa-user"></i> Khách</a>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+        </header>
+      
+      <!-- Modal Đăng nhập/Đăng ký -->
+      <div class="modal fade user-dropdown" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="userModalLabel">Đăng nhập/Đăng ký</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <button type="button" class="btn btn-outline-primary btn-block" onclick="window.location.href='login.html'">Đăng nhập</button>
+                <button type="button" class="btn btn-outline-primary btn-block" onclick="window.location.href='signup.html'">Đăng ký</button>
+                <button type="button" class="btn btn-outline-primary btn-block" onclick="window.location.href='logout.html'">Đăng xuất</button>
+                <button type="button" class="language-option" onclick="">Ngôn ngữ</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END Modal -->
+                       
         <div class="menu-item">
             <div class="container">
                 <div class="row">
@@ -350,8 +378,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-5">
-                        <div class="co-text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved  </p></div>
+                        <div class="co-text"><p>  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved  </p></div>
                     </div>
                 </div>
             </div>
